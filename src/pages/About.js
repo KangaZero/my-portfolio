@@ -65,7 +65,7 @@ const AboutMe = () => {
       </List>
       <Description>
         Hi there! My name is Samuel Wai Weng Yong, and I am a fullstack web developer. I am soon to be completing my bootcamp course at the end of January 2023. 
-        I may be new to world of web development, but I am always eager to learn and improve!
+        I may be new to the world of web development, but I am always eager to learn and improve!
       </Description>
     </Container>
   );

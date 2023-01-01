@@ -10,12 +10,14 @@ const Card = styled.div`
   padding-bottom: 1rem;
   background-color: #fff;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  font-family: Garamond;
 `;
 
 const Title = styled.h3`
   margin: 0;
   font-size: 1.25rem;
   padding-bottom: 1rem;
+  font-weight: bold;
 `;
 
 const Image = styled.img`
@@ -36,7 +38,7 @@ const Link = styled.a`
 
 const Description = styled.p`
   margin: 0.5rem 0 0;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   color: #666;
 `;
 
