@@ -1,6 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
+
 
 const Navi = () =>{
   return (
@@ -9,9 +11,13 @@ const Navi = () =>{
         <Container>
           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+            <Link to="/home">
+            <Nav.Link>Home</Nav.Link>
+            </Link>
+            {/* <Nav.Link href="#projects">Projects</Nav.Link> */}
+            <Link to="/about">
+            <Nav.Link>About</Nav.Link>
+            </Link>
           </Nav>
         </Container>
       </Navbar>
