@@ -1,6 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import profile from './profile.png';
+
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -12,15 +14,17 @@ const Container = styled.div`
 `;
 
 const Image = styled.img`
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
+  width: 250px;
+  height: 280px;
+  border-radius: 10%;
   margin-bottom: 1rem;
 `;
 
 const Title = styled.h1`
   margin: 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Garamond;
 `;
 
 const List = styled.ul`
@@ -32,24 +36,31 @@ const List = styled.ul`
 `;
 
 const Item = styled.li`
-  font-size: 1.2rem;
-  margin-right: 1rem;
+  font-size: 1rem;
+  color: grey;
+  margin-right: 0.5rem;
   margin-bottom: 0.5rem;
+  font-family: Garamond;
+
 `;
 
 const Description = styled.p`
   font-size: 1.2rem;
-  margin: 1rem 0;
+  width: 80%;
+  margin: 1rem 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 5rem;
+  font-family: Garamond;
 `;
 
 const AboutMe = () => {
   return (
     <Container>
-      <Image src="/path/to/image.jpg" alt="Profile picture" />
-      <Title>About Me</Title>
+      <Image src={profile} alt="Profile picture" />
+      <Title>Samuel Wai Weng Yong</Title>
       <List>
-        <Item>Javascript</Item>
-        <Item>React</Item>
+        <Item>Javascript |</Item>
+        <Item>React |</Item>
         <Item>MERN stack developer</Item>
       </List>
       <Description>

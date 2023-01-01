@@ -12,7 +12,7 @@ const Home = () => {
 
   const fetchProjects = () => {
     // fetch the projects data from an API or a database
-    // for this example, we'll use a setTimeout to simulate the delay of an API call
+    // for this example, we'll use a setTimeout to simulate the delay of an API call since we don't have an actual database
     setTimeout(() => {
       setProjects([
         {

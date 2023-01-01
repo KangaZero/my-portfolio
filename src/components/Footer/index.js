@@ -9,6 +9,8 @@ const FooterContainer = styled.footer`
   display: flex;
   align-items: center;
   flex-direction: column;
+  font-size: 10px;
+  padding: 1rem;
 `;
 
 const SocialLinks = styled.div`
@@ -19,6 +21,12 @@ const SocialLinks = styled.div`
 
   a:hover {
     color: #eee;
+  }
+`;
+
+const CopyrightTag = styled.section`
+  p {
+    margin: 1rem;
   }
 `;
 
@@ -36,7 +44,9 @@ const Footer = () => {
           <FaFacebook size={32} />
         </a>
       </SocialLinks>
-      <p>Copyright {new Date().getFullYear()}</p>
+      <CopyrightTag>
+        <p>Copyright {new Date().getFullYear()}</p>
+      </CopyrightTag>
     </FooterContainer>
   );
 }

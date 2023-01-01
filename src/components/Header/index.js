@@ -1,4 +1,3 @@
-
 import * as React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 
@@ -50,9 +49,6 @@ function Header(props) {
         <IconButton>
           <SearchIcon />
         </IconButton>
-        <Button variant="outlined" size="small">
-          Sign up
-        </Button>
       </Toolbar>
       {/* navbar section */}
       <Toolbar
