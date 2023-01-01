@@ -11,7 +11,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import Typography from '@mui/material/Typography';
 import Link from '@mui/material/Link';
 
-import myLogo from './logo.png';
+import myLogo from './logo.svg';
 
 function Header(props) {
   const location = useLocation();
@@ -32,7 +32,7 @@ function Header(props) {
         >
         <ImageListItem key={logo.img}>
           <img
-            src='./logo.png'
+            src={logo.img}
             alt={logo.des}
             ></img>
         </ImageListItem>
