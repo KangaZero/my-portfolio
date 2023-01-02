@@ -2,12 +2,6 @@
 import './App.css';
 import React from 'react';
 
-import Container from '@mui/material/Container';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
-// import ProTip from './ProTip';
-
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Header from './components/Header';
@@ -19,10 +13,9 @@ import Footer from './components/Footer';
 // navbar sections
 const sections = [
   { title: 'Home', url: '/' },
-  { title: 'Projects', url: 'Projects' },
+  // { title: 'Projects', url: 'Projects' },
   { title: 'About', url: 'About' },
 ];
-
 
 function App() {
   return (

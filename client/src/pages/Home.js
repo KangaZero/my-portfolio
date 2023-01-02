@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+// import { useLocation, useNavigate } from 'react-router-dom';
 import ProjectCard from '../components/ProjectCard';
 // project images
 import holidayCalender from './holidayCalendar.png';

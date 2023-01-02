@@ -16,6 +16,8 @@ function Header(props) {
   const location = useLocation();
   const navigate = useNavigate();
 
+  console.log(location)
+
   const { sections, title } = props;
 
   const logo = {

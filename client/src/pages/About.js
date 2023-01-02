@@ -45,12 +45,13 @@ const Item = styled.li`
 `;
 
 const Description = styled.p`
-  font-size: 1.2rem;
-  width: 80%;
+  font-size: 1.1rem;
+  font-family: Futara;
+  width: 70%;
   margin: 1rem 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 5rem;
-  font-family: Garamond;
+  padding: 0.8rem;
+  border: 1px; 
+  border-style: solid;
 `;
 
 const AboutMe = () => {
